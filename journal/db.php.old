@@ -1,0 +1,9 @@
+<?php
+	$con = mysql_connect('localhost', 'jaspe', '3Q9NUu7YDK2C4DYL');
+	mysql_select_db('jaspe');
+
+mysql_query("SET NAMES 'utf8'"); // unicode support on!
+
+
+
+?>
