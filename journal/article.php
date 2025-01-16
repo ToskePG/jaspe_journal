@@ -97,7 +97,7 @@ $b_result = mysql_fetch_array($b_query);
 <?php
 $institucija_id = array();
 $broj_autora = 0;
-for ($i = 1; $i <= 13; $i++) {
+for ($i = 1; $i <= 50; $i++) {
 	if ($a_result["autor" . $i] != "") {
 		$autor_id[$i] = $a_result["autor" . $i];
 		$institucija_id[$i] = explode(",", $a_result["institucija" . $i]);

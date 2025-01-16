@@ -62,8 +62,8 @@
 	?>
 
 	<?php
-	$al_query = mysql_query("SELECT * FROM clanci WHERE `broj`='29' ORDER BY id ASC") or die(mysql_error());
-	$b_query = mysql_query("SELECT * FROM brojevi WHERE `id`='29' LIMIT 1") or die(mysql_error());
+	$al_query = mysql_query("SELECT * FROM clanci WHERE `broj`='30' ORDER BY id ASC") or die(mysql_error());
+	$b_query = mysql_query("SELECT * FROM brojevi WHERE `id`='30' LIMIT 1") or die(mysql_error());
 	$b_result = mysql_fetch_array($b_query);
 
 	while ($al_result = mysql_fetch_array($al_query)) {
@@ -80,7 +80,7 @@
 			<?php
 			$institucija_id = array();
 			$broj_autora = 0;
-			for ($i = 1; $i <= 13; $i++) {
+			for ($i = 1; $i <=50; $i++) {
 				if ($al_result["autor" . $i] != "") {
 					$autor_id[$i] = $al_result["autor" . $i];
 					$institucija_id[$i] = explode(",", $al_result["institucija" . $i]);

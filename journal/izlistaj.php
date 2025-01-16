@@ -54,7 +54,7 @@ function stampaj_listu($al_query)
 			<?php
 			$institucija_id = array();
 			$broj_autora = 0;
-			for ($i = 1; $i <= 13; $i++) {
+			for ($i = 1; $i <= 50; $i++) {
 				if ($al_result["autor" . $i] != "") {
 					$autor_id[$i] = $al_result["autor" . $i];
 					$institucija_id[$i] = explode(",", $al_result["institucija" . $i]);

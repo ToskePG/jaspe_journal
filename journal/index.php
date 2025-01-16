@@ -140,7 +140,7 @@ if ($section=="article" || $section=="abstract"){
 
 ?>	
 <meta name="citation_title" content="<?php echo $rowart["naslov_eng"]; ?>">
-<?php for($jk=1;$jk<=13;$jk++){
+<?php for($jk=1;$jk<=50;$jk++){
 if($rowart["autor".$jk]){ ?>
 <meta name="citation_author" content="<?php echo fetch_autor2($rowart["autor".$jk]); ?>">
 <?php }} ?>
@@ -451,7 +451,7 @@ Thank you for subscribing.
 	</ul>
   </li>
 
-  <li><a href="?sekcija=articles&alc=press&alv=29">Ahead of Print</a> <!-- kad je press, onda je link ?sekcija=articles&alc=press&alv=XX --></li>
+  <li><a href="?sekcija=articles&alc=press&alv=30">Ahead of Print</a> <!-- kad je press, onda je link ?sekcija=articles&alc=press&alv=XX --></li>
 
   <li><a href="?sekcija=articles&alc=past&alv=1">Archive</a> <!-- kad je press, onda je link ?sekcija=articles&alc=press&alv=2 -->
 
