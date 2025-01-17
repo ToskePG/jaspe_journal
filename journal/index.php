@@ -451,7 +451,7 @@ Thank you for subscribing.
 	</ul>
   </li>
 
-  <li><a href="?sekcija=articles&alc=press&alv=30">Ahead of Print</a> <!-- kad je press, onda je link ?sekcija=articles&alc=press&alv=XX --></li>
+  <li><a href="?sekcija=articles&alc=press&alv=31">Ahead of Print</a> <!-- kad je press, onda je link ?sekcija=articles&alc=press&alv=XX --></li>
 
   <li><a href="?sekcija=articles&alc=past&alv=1">Archive</a> <!-- kad je press, onda je link ?sekcija=articles&alc=press&alv=2 -->
 

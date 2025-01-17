@@ -1,8 +1,8 @@
 ﻿<div id="lijevi">
-	<img src="images/knjigica_3d_29.jpg">
+	<img src="images/knjigica_3d_30.jpg">
 
 	<h3>Dear Readers,</h3>
-	<p> Journal of Anthropology of Sport and Physical Education (JASPE) was founded in 2017 and to this day 237
+	<p> Journal of Anthropology of Sport and Physical Education (JASPE) was founded in 2017 and to this day 242
 		scientific papers of researches from all continents have been published in it. </p>
 	<p> In 2018, the editorial board has been strengthened, and this will be done continuously so the journal would grow
 		constantly. Today, Journal of Anthropology of Sport and Physical Education (JASPE) is indexed into seven
