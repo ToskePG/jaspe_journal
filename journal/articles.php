@@ -369,6 +369,17 @@ switch ($alc) {
 			</div>
 		</div>
 
+		<div class="faq">
+			<div class="question"><u><b>2025</b></u></div>
+			<div class="answer">
+				<?php
+				$al_query = mysql_query("SELECT * FROM clanci WHERE `broj`=30 ORDER BY id ASC") or die(mysql_error());
+				echo "<p><img src=\"images/knjigica_3d_30.jpg\" border=\"0\"><br /><b>January 2025, 9(1) <a href='/download_pdf_arhiva.php/JASPE_January_2025.pdf' target='_blank'>[print version]</a></b></p>";
+				stampaj_listu($al_query);
+				?>
+			</div>
+		</div>
+
 
 
 		<?php
